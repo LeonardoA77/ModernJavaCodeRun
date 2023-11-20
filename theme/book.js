@@ -138,9 +138,14 @@ function playground_text(playground, hidden = true) {
         if(response["success"] != true)
         {
           result_block.innerText = response["stderr"];
+          console.log(response);
         }
-        result_block.innerText =  response["stdout"];
-        result_block.classList.remove("result-no-output");
+        else
+        {
+          result_block.innerText =  response["stdout"];
+          result_block.classList.remove("result-no-output");
+        }
+        
       })
       .catch(
         (error) =>

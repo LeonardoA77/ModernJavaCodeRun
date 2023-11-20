@@ -1,4 +1,81 @@
-# Prelude
+# Snippets Demo
+
+## 1- code with run button 
+
+```java
+void main() {
+    System.out.println("Hello, World");
+}
+```
+
+___________________________________________________
+
+## 2- code with the run button disabled
+
+```java,no_run
+void main() {
+    System.out.println("Hello, World");
+}
+```
+
+___________________________________________________
+
+## 3- code with editable option
+
+```java,editable
+void main() {
+    for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+    }
+}
+```
+
+___________________________________________________
+
+## 4- code with ferris picture
+
+-If the code snippets has 4 lines or more the ferris will display as a picture
+
+-If the code has less than 4 lines  the ferris will be as button 
+
+### a. This code does not compile!
+
+```java,does_not_compile 
+void main() {
+    // Code lines => 4
+    System.out.println("crab with a question mark");
+}
+```
+......................................................
+
+### b. This code panics!
+
+
+```java,panics
+void main() {
+    // Code lines => 4
+    System.out.println("scared crab");
+}
+```
+......................................................
+
+### c. Not desired behavior
+
+```java,not_desired_behavior
+void main() {
+    // Code lines => 4"
+    System.out.println("This code does not produce the desired behavior.");   
+}
+```
+
+## Example with < 4 lines crab as button
+
+```java,panics
+void main() {
+    System.out.println("Panics < 4");
+}
+```
+
 
 First of all, thank you for your time and for your patience.
 

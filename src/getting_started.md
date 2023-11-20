@@ -27,7 +27,8 @@ edit the following code.
 In most situations, we’ll lead you to the correct version of any code that
 doesn’t compile.
 
-```java,panics
+
+```java
 void main() {
     System.out.println("Hello, World");
 }
